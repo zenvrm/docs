@@ -1,0 +1,9 @@
+[submodule "themes/shadocs"]
+	path = themes/shadocs
+	url = https://github.com/jgazeau/shadocs.git
+[submodule "docs/themes/shadocs"]
+	path = docs/themes/shadocs
+	url = https://github.com/jgazeau/shadocs.git
+[submodule "docs/themes/zdoc"]
+	path = docs/themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zzo.git

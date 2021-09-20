@@ -1,0 +1,5 @@
+site_name: Zenvrm Documentation
+theme: flatly
+nav:
+    - Home: index.md
+    - About: about.md

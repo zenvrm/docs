@@ -1,4 +1,5 @@
 site_name: Zenvrm Documentation
+site_url: https://devzvrm.github.io/zenvrm-docs
 theme: flatly
 nav:
     - Home: index.md

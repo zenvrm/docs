@@ -1,6 +1,20 @@
 site_name: Zenvrm Documentation
 site_url: https://devzvrm.github.io/zenvrm-docs
-theme: flatly
+dev_addr: 127.0.0.1:8100
+theme: 
+    name: material
+    palette:
+        - scheme: default
+          primary: cyan
+          toggle:
+                icon: material/toggle-switch-off-outline
+                name: Switch to dark mode
+        - scheme: slate
+          primary: cyan
+          toggle:
+                icon: material/toggle-switch
+                name: Switch to light mode
 nav:
     - Home: index.md
     - About: about.md
+

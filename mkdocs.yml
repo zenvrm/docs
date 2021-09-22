@@ -6,7 +6,7 @@ theme:
     features:
     palette:
         - scheme: default
-          primary: cyan
+          primary: teal
           toggle:
                 icon: material/toggle-switch-off-outline
                 name: Switch to dark mode

@@ -1,8 +1,9 @@
-site_name: Zenvrm Documentation
+site_name: Zenvrm Docs
 site_url: https://devzvrm.github.io/zenvrm-docs
 dev_addr: 127.0.0.1:8100
 theme: 
     name: material
+    features:
     palette:
         - scheme: default
           primary: cyan
@@ -17,4 +18,12 @@ theme:
 nav:
     - Home: index.md
     - About: about.md
+    - Upcoming Features: upcoming-features.md
+    - Smart Home Integrations:
+      - Controllers:
+        - home-controllers/index.md
+        - Ezlo: home-controllers/ezlo.md
+        - Vera: home-controllers/vera.md
+      - Ecobee: thermostats/ecobee.md
+    - Support: support.md
 

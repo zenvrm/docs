@@ -3,27 +3,39 @@ site_url: https://devzvrm.github.io/zenvrm-docs
 dev_addr: 127.0.0.1:8100
 theme: 
     name: material
+    custom_dir: overrides
+    logo: images/favicon.jpg
+    favicon: images/favicon.jpg
+
     features:
+      - navigation.tabs
+      - navigation.sections
     palette:
         - scheme: default
-          primary: teal
+          primary: white
+          accent: teal
           toggle:
-                icon: material/toggle-switch-off-outline
+                icon: material/weather-sunny
                 name: Switch to dark mode
         - scheme: slate
           primary: cyan
           toggle:
-                icon: material/toggle-switch
+                icon: material/weather-night
                 name: Switch to light mode
 nav:
     - Home: index.md
-    - About: about.md
-    - Upcoming Features: upcoming-features.md
-    - Smart Home Integrations:
-      - Controllers:
-        - home-controllers/index.md
-        - Ezlo: home-controllers/ezlo.md
-        - Vera: home-controllers/vera.md
+    - Getting Started: 
+      - Initial Setup: getting-started.md
+      - Understanding Modules: modules.md
+      - Automation: automation.md
+    - Controllers:
+      - home-controllers/index.md
+      - Ezlo: home-controllers/ezlo.md
+      - Vera: home-controllers/vera.md
       - Ecobee: thermostats/ecobee.md
     - Support: support.md
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<support@zenvrm.com>
 

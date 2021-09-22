@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devzvrm.github.io/zenvrm-docs/getting-started/</loc>
+         <lastmod>2021-09-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devzvrm.github.io/zenvrm-docs/upcoming-features/</loc>
          <lastmod>2021-09-22</lastmod>
          <changefreq>daily</changefreq>

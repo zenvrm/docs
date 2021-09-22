@@ -2,12 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://devzvrm.github.io/zenvrm-docs/</loc>
-         <lastmod>2021-09-21</lastmod>
+         <lastmod>2021-09-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devzvrm.github.io/zenvrm-docs/about/</loc>
-         <lastmod>2021-09-21</lastmod>
+         <lastmod>2021-09-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devzvrm.github.io/zenvrm-docs/upcoming-features/</loc>
+         <lastmod>2021-09-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devzvrm.github.io/zenvrm-docs/home-controllers/</loc>
+         <lastmod>2021-09-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devzvrm.github.io/zenvrm-docs/home-controllers/vera/</loc>
+         <lastmod>2021-09-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

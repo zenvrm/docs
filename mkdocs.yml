@@ -4,9 +4,8 @@ dev_addr: 127.0.0.1:8100
 theme: 
     name: material
     custom_dir: overrides
-    logo: images/favicon.jpg
-    favicon: images/favicon.jpg
-
+    logo: images/zenvrm-favicon-1.0.png
+    favicon: images/zenvrm-favicon-1.0.png
     features:
       - navigation.tabs
       - navigation.sections
@@ -25,17 +24,21 @@ theme:
 nav:
     - Home: index.md
     - Getting Started: 
-      - Initial Setup: getting-started.md
-      - Understanding Modules: modules.md
-      - Automation: automation.md
-    - Controllers:
-      - home-controllers/index.md
-      - Ezlo: home-controllers/ezlo.md
-      - Vera: home-controllers/vera.md
-      - Ecobee: thermostats/ecobee.md
-    - Support: support.md
+      - Initial Setup: getting-started/setup.md
+      - Module Basics: getting-started/modules.md
+    #  - Automation: automation.md
+    #- Controllers:
+      #- home-controllers/index.md
+      #- Ezlo: home-controllers/ezlo.md
+      #- Vera: home-controllers/vera.md
+      #- Ecobee: thermostats/ecobee.md
+    #- Support: support.md
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<support@zenvrm.com>
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 

@@ -4,7 +4,7 @@ After onboarding a property data will start populating into the various sections
 ## Dashboard
 This section provides various information about the property including any alerts you may have for your account. Information about upcoming guests, monthly revenue, lock battery levels, and thermostat details can be found here. 
 
-If you have multiple properties, the data can be filtered by clicking the :material-account-chevron-up: symbol at the top of the page.   
+If you have multiple properties, the data can be filtered by clicking the :material-chevron-up: symbol at the top of the page.   
 
 :clipboard: This type of filter for properties is commonly used throughout the tool along with :material-filter-outline:.  
 

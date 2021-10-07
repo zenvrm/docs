@@ -26,8 +26,26 @@ nav:
     - Getting Started: 
       - Initial Setup: getting-started/setup.md
       - Module Basics: getting-started/modules.md
-    #  - Automation: automation.md
-    #- Controllers:
+    - Application Deep Dive:
+      - Dashboard: application/dashboard.md
+      - Inbox: application/inbox.md
+      - Reservations: application/reservations.md
+      - Calendar: application/calendar.md
+      - Properties: application/properties.md
+      - Tasks: application/tasks.md
+      - Staff: application/staff.md
+      - Reports: application/reports.md
+      - Settings: application/settings.md
+      - Integrations: application/integrations.md
+      - Automation Engine:
+        - Reservations: automation/reservations.md
+        - Smart Locks: automation/smartlocks.md
+        - Tasks: automation/tasks.md
+        - Dynamic Pricing: automation/pricing.md
+        - Thermostat: automation/thermostat.md
+        - Noise Monitoring: automation/noise.md
+      
+    #- Smart Home:
       #- home-controllers/index.md
       #- Ezlo: home-controllers/ezlo.md
       #- Vera: home-controllers/vera.md

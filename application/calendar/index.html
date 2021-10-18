@@ -16,7 +16,7 @@
     
     
       
-        <title>Calendar - Zenvrm Docs</title>
+        <title>Calendar - ZenVRM Docs</title>
       
     
     
@@ -37,6 +37,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -116,9 +118,9 @@
     <!-- Link to home -->
     <a
       href="../.."
-      title="Zenvrm Docs"
+      title="ZenVRM Docs"
       class="md-header__button md-logo"
-      aria-label="Zenvrm Docs"
+      aria-label="ZenVRM Docs"
       data-md-component="logo"
     >
       
@@ -136,7 +138,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Zenvrm Docs
+            ZenVRM Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -337,12 +339,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Zenvrm Docs" class="md-nav__button md-logo" aria-label="Zenvrm Docs" data-md-component="logo">
+    <a href="../.." title="ZenVRM Docs" class="md-nav__button md-logo" aria-label="ZenVRM Docs" data-md-component="logo">
       
   <img src="../../images/zenvrm-favicon-1.0.png" alt="logo">
 
     </a>
-    Zenvrm Docs
+    ZenVRM Docs
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -492,9 +494,67 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Calendar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Calendar
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individual-property" class="md-nav__link">
+    Individual Property
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individual-reservation-metadata" class="md-nav__link">
+    Individual Reservation Metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-details-metadata" class="md-nav__link">
+    Task Details Metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exportable-calendar" class="md-nav__link">
+    Exportable Calendar
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -698,6 +758,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individual-property" class="md-nav__link">
+    Individual Property
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individual-reservation-metadata" class="md-nav__link">
+    Individual Reservation Metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-details-metadata" class="md-nav__link">
+    Task Details Metadata
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exportable-calendar" class="md-nav__link">
+    Exportable Calendar
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -710,6 +813,33 @@
                 
                 
                 <h1 id="calendar">Calendar</h1>
+<p>The calendar page provides a consoliated property view of availability, pricing, and reservation data.</p>
+<div class="admonition tip">
+<p class="admonition-title">Quick Tips</p>
+<ul>
+<li>Shaded areas of the calendar indicate blocked dates</li>
+<li>Clicking on a area with an existing reservation will bring up the <a href="#individual-reservation-metadata">individual reservation metadata</a></li>
+<li>Clicking on the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5V5h14v14m-5.06-8.94c.63.64.98 1.48.98 2.38 0 .9-.35 1.74-.98 2.37L11.73 17c-.65.67-1.51 1-2.37 1-.86 0-1.72-.33-2.36-1-1.33-1.29-1.33-3.42 0-4.74l1.35-1.36-.01.6c-.01.5.07 1 .23 1.44l.05.15-.4.41a1.597 1.597 0 0 0 0 2.28c.61.62 1.67.62 2.28 0l2.2-2.19c.3-.31.48-.72.48-1.15 0-.44-.18-.83-.48-1.14a.87.87 0 0 1 0-1.24c.33-.33.91-.32 1.24 0m4.06-.7c0 .9-.35 1.74-1 2.38l-1.34 1.36v-.6c.01-.5-.07-1-.23-1.44l-.05-.14.4-.42a1.597 1.597 0 0 0 0-2.28c-.61-.62-1.68-.61-2.28 0l-2.2 2.2c-.3.3-.48.71-.48 1.14 0 .44.18.83.48 1.14.17.16.26.38.26.62s-.09.46-.26.62a.86.86 0 0 1-.62.25c-.22 0-.45-.08-.62-.25a3.362 3.362 0 0 1 0-4.75L12.27 7A3.311 3.311 0 0 1 17 7c.65.62 1 1.46 1 2.36z"/></svg></span> button will provide an <a href="#exportable-calendar">exportable calendar</a></li>
+<li>Areas of the calendar with a <span class="twemoji zenblue"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg></span> indicate a task is present on the date. Clicking this will bring up the <a href="#task-details-metadata">task details</a></li>
+<li>Clicking on an individual date box will bring up the <a href="#date-configuration-options">date configuration options</a> where you can make adjustments</li>
+<li>You can adjust the calendar dates view by clicking the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.58 10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.42z"/></svg></span> or <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58 13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg></span> buttons or by clicking the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.58 12 13.17l4.59-4.59L18 10l-6 6-6-6 1.41-1.42z"/></svg></span> buttons to adjust the month or year</li>
+</ul>
+</div>
+<p><img alt="calendar" src="../images/calendar_full.png" /></p>
+<h2 id="search">Search</h2>
+<p>The search bar in the top left allows a text filter that will display properties matching the filter.</p>
+<p><img alt="search" src="../images/calendar_search.png" /></p>
+<h2 id="individual-property">Individual Property</h2>
+<p>Clicking on an individual property will provide an expanded monthly view of that property. All other buttons act the same on this page.</p>
+<p><img alt="calendar property" src="../images/calendar_individual.png" /></p>
+<h2 id="individual-reservation-metadata">Individual Reservation Metadata</h2>
+<p><img alt="reservation meta" src="../images/calendar_reservation_meta.png" /></p>
+<h2 id="task-details-metadata">Task Details Metadata</h2>
+<p><img alt="task meta" src="../images/calendar_task_meta.png" /></p>
+<h2 id="exportable-calendar">Exportable Calendar</h2>
+<p>Clicking the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 16H5V5h14v14m-5.06-8.94c.63.64.98 1.48.98 2.38 0 .9-.35 1.74-.98 2.37L11.73 17c-.65.67-1.51 1-2.37 1-.86 0-1.72-.33-2.36-1-1.33-1.29-1.33-3.42 0-4.74l1.35-1.36-.01.6c-.01.5.07 1 .23 1.44l.05.15-.4.41a1.597 1.597 0 0 0 0 2.28c.61.62 1.67.62 2.28 0l2.2-2.19c.3-.31.48-.72.48-1.15 0-.44-.18-.83-.48-1.14a.87.87 0 0 1 0-1.24c.33-.33.91-.32 1.24 0m4.06-.7c0 .9-.35 1.74-1 2.38l-1.34 1.36v-.6c.01-.5-.07-1-.23-1.44l-.05-.14.4-.42a1.597 1.597 0 0 0 0-2.28c-.61-.62-1.68-.61-2.28 0l-2.2 2.2c-.3.3-.48.71-.48 1.14 0 .44.18.83.48 1.14.17.16.26.38.26.62s-.09.46-.26.62a.86.86 0 0 1-.62.25c-.22 0-.45-.08-.62-.25a3.362 3.362 0 0 1 0-4.75L12.27 7A3.311 3.311 0 0 1 17 7c.65.62 1 1.46 1 2.36z"/></svg></span> button will allow you to share your calendar with other applications.</p>
+<p><img alt="calendar export create" src="../images/calendar_export1.png" />
+<img alt="calendar import url" src="../images/calendar_export2.png" /></p>
                 
               
               

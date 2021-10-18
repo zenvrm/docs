@@ -1,4 +1,4 @@
-site_name: Zenvrm Docs
+site_name: ZenVRM Docs
 site_url: https://devzvrm.github.io/zenvrm-docs
 dev_addr: 127.0.0.1:8100
 theme: 
@@ -55,7 +55,13 @@ extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<support@zenvrm.com>
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

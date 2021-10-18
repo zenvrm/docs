@@ -15,18 +15,21 @@ This provides information about the next 4 upcoming reservations as well as any 
 
 
 ## Financial Summary
+Provides total income on current month as well as a breakdown per-channel. The :material-chevron-down: button can be pressed to filter the month.
 
 ![finances](images/dashboard_finances.png)
 
 ## Upcoming Tasks
+Provides details of upcoming tasks assigned within the system. Clicking on the task identifier will take you directly to the task.
 
 ![tasks](images/dashboard_tasks.png)
 
 ## Smart Home
-Provides basic details on all reservations. From here you can see your upcoming check-ins and details of past reservations. The ability to message guests directly from this section is available as well from the actions section.
+This section provides basic details of integrated devices such as battery life or temperature details.
 
 ![smart home](images/dashboard_smart.png)
 
 ## Occupancy
+Provides the amount of total reservations monthly over the past year.
 
 ![occupancy](images/dashboard_occupancy.png)

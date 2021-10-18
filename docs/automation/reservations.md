@@ -1,12 +1,19 @@
-# Inbox
-The inbox provides a consolidated view of conversations with guest and staff.  
+# Reservations
+The reservations page provides a consolidated view of reservations in the system.
 
-![dashboard](images/inbox_full.png)
+![reservations](images/reservations_full.png)
 
-## Filter
-By default, the data displayed is based on all properties within the system. By click the :material-chevron-down: button at the top, you can filter on any given property and the dashboard will update data specifically for that property. 
+## Top Bar
+By default, the data displayed is based on all properties within the system. By click the :material-chevron-down: button at the top, you can filter on any given property and the dashboard will update data specifically for that property.
 
-![filter property](images/inbox_filter.png)
+### Search Filter
+Typing in the box with the :material-magnify: icon will filter on data in the reservation table similar to the inbox search filter. 
+
+![top bar](images/reservations_top_bar.png)
+
+![filter](images/reservations_filter.png)
+
+![add](images/reservations_add.png)
 
 ## Search
 This provides information about the next 4 upcoming reservations as well as any existing reservations that are checking out. Clicking on any given reservation will take you directly to the booking data.

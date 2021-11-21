@@ -1,5 +1,5 @@
 # Tasks
-The tasks page provides a consolidated view of all tasks in the system. The layout here is nearly identical to the [reservations](../reservations.md) page, so in the essence of saving time, you may use that page as a reference should you need it. From this page, you can view existing tasks as well as create and assign new tasks to your staff members.
+The tasks page provides a consolidated view of all tasks in the system. The layout here is nearly identical to the [reservations](../application/reservations.md) page, so in the essence of saving time, you may use that page as a reference should you need it. From this page, you can view existing tasks as well as create and assign new tasks to your staff members.
 
 ![full](images/tasks_full.png)
 

@@ -4,7 +4,7 @@ The inbox provides a consolidated view of conversations with guest and staff.
 ![dashboard](images/inbox_full.png)
 
 ## Filter
-By default, the data displayed is based on all properties within the system. By click the :material-chevron-down: button at the top, you can filter on any given property and the dashboard will update data specifically for that property. 
+By default, the data displayed is based on all properties within the system. By clicking the :material-chevron-down: button at the top, you can filter on any given property and the dashboard will update data specifically for that property. 
 
 ![filter property](images/inbox_filter.png)
 

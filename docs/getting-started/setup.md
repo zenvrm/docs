@@ -14,11 +14,13 @@ After signing up for an account and logging in - on the side menu navigate to Pr
 
 Provide the email and password for the Airbnb account you'd like to add.
 
-:clipboard: Zenvrm does not store account credentials - your password is only used to authenticate to the platform. If your authentication token expires, you will be notified that your Airbnb account has been disconnected and be requested to add your password again.
+!!! Note
+	:clipboard: Zenvrm does not store account credentials - your password is only used to authenticate to the platform. If your authentication token expires, you will be notified that your Airbnb account has been disconnected and be requested to add your password again.
 ![example 2](images/property-add-airbnb-example1.png)
 
 Once you've provided your credentials select one or more properties to add to your account and click "Proceed."
 
-:clipboard: After adding a property, it typically takes 30 minutes to fully integrate details into the platform.
+!!! Note
+	:clipboard: After adding a property, it typically takes 30 minutes to fully integrate details into the platform.
 
 ![example3](images/property-add-select-example.png)
